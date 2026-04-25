@@ -58,3 +58,11 @@ Search inside `index.html` for:
 - gallery placeholders
 
 Replace with real JAKS photos, videos, client samples, pricing, and project details.
+
+
+## Update notes
+
+- Updated brand palette to dark navy + premium yellow/gold to match the current JAKS logo.
+- Added a Store / Products section.
+- Added advanced future project cards: 3D + IoT control box, app dashboard, custom mechanisms, and smart lab setup.
+- Updated hero messaging to make the brand feel broader than decorations or basic 3D prints.
