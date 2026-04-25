@@ -1,8 +1,0 @@
-/* FIX CRITICAL LAYOUT */
-.hero{position:relative;min-height:650px;display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:center;padding-top:54px;overflow:hidden}
-.hero:after{display:none}
-.hero-main-photo{height:520px;border:1px solid rgba(255,196,0,.22);border-radius:24px;background-size:cover;background-position:center;box-shadow:var(--shadow);overflow:hidden;position:relative}
-.metric-a{top:20px;left:20px}
-.metric-b{right:20px;bottom:60px}
-.feature-bar{margin:20px auto 0}
-body{overflow-x:hidden}
