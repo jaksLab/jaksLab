@@ -142,6 +142,7 @@ const i18n = {
     'contact.copy': 'Need to build a custom product, prototype, or technical solution? Let\'s talk.',
     'contact.phone': 'Phone:',
     'contact.location': 'Location:',
+    'contact.follow': 'Follow:',
     'form.name': 'Name',
     'form.type': 'Project type',
     'form.pick': 'Select one',
@@ -159,6 +160,8 @@ const i18n = {
     'footer.links': 'Links',
     'footer.follow': 'Follow',
     'footer.contact': 'Contact',
+    'social.instagram': 'Instagram: @jaks9_3',
+    'social.linkedin': 'LinkedIn: Jonathan Tapia',
     'footer.copy': '© 2026 JAKS Engineering Lab. All rights reserved.'
   },
   es: {
@@ -225,6 +228,7 @@ const i18n = {
     'contact.copy': '¿Necesitas construir un producto, prototipo o solución técnica? Hablemos.',
     'contact.phone': 'Teléfono:',
     'contact.location': 'Ubicación:',
+    'contact.follow': 'Síguenos:',
     'form.name': 'Nombre',
     'form.type': 'Tipo de proyecto',
     'form.pick': 'Selecciona una opción',
@@ -242,6 +246,8 @@ const i18n = {
     'footer.links': 'Enlaces',
     'footer.follow': 'Síguenos',
     'footer.contact': 'Contacto',
+    'social.instagram': 'Instagram: @jaks9_3',
+    'social.linkedin': 'LinkedIn: Jonathan Tapia',
     'footer.copy': '© 2026 JAKS Engineering Lab. Todos los derechos reservados.'
   }
 };

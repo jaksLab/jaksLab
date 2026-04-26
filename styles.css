@@ -475,6 +475,27 @@ p {
   padding: 0.74rem 0.84rem;
 }
 
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.42rem 0.72rem;
+  font-size: 0.92rem;
+}
+
+.social-links a:hover {
+  border-color: rgba(255, 196, 0, 0.7);
+  color: var(--brand);
+}
+
 .site-footer {
   margin-top: 4rem;
   border-top: 1px solid var(--border);
