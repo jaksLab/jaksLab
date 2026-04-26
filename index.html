@@ -1,170 +1,186 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="JAKS Engineering Lab - soluciones técnicas premium en impresión 3D, electrónica, IoT, automatización, diseño mecánico y mantenimiento." />
-  <title>JAKS Engineering Lab | Ideas. Ingeniería. Soluciones.</title>
+  <meta name="description" content="JAKS Engineering Lab designs, builds, and invents premium engineering products with 3D printing, electronics, IoT, and mechanical innovation." />
+  <title>JAKS Engineering Lab | Build. Invent. Scale.</title>
   <link rel="icon" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header">
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
     <div class="container nav">
-      <a href="#inicio" class="brand">
+      <a href="#home" class="brand" aria-label="JAKS Home">
         <img src="assets/logo.png" alt="JAKS Engineering Lab logo" />
       </a>
-      <nav class="menu" id="menu">
-        <a class="active" href="#inicio">Inicio</a>
-        <a href="#sobre">Sobre JAKS</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#proyectos">Proyectos</a>
-        <a href="#tienda">Tienda</a>
-        <a href="#idea-lab">Idea Lab</a>
-        <a href="#contacto">Contacto</a>
+
+      <nav class="menu" id="menu" aria-label="Main Navigation">
+        <a class="active" href="#home" data-i18n="nav.home">Home</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
       </nav>
-      <a class="btn btn-outline" href="#contacto">Cotiza tu proyecto</a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+
+      <div class="nav-actions">
+        <div class="lang-switch" role="group" aria-label="Language selector">
+          <button class="lang-btn active" type="button" data-lang="en">EN</button>
+          <button class="lang-btn" type="button" data-lang="es">ES</button>
+        </div>
+        <a class="btn btn-outline" href="#contact" data-i18n="header.cta">Start your project</a>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu">☰</button>
     </div>
   </header>
 
-  <main id="inicio">
+  <main id="home">
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-copy reveal">
-          <h1>Ideas.<br>Ingeniería.<br><span>Soluciones.</span></h1>
-          <p>En JAKS Engineering Lab combinamos creatividad, tecnología e ingeniería para diseñar y construir soluciones reales que mejoran la vida de las personas y ayudan a negocios a verse más profesionales.</p>
+          <p class="eyebrow" data-i18n="hero.eyebrow">Engineering with intent</p>
+          <h1 data-i18n="hero.title">We build products that look premium and work brilliantly.</h1>
+          <p class="hero-lead" data-i18n="hero.copy">
+            JAKS Engineering Lab combines design, electronics, mechanics, and automation to help brands launch reliable, market-ready solutions.
+          </p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
-            <a class="btn btn-ghost" href="#video">Ver video</a>
+            <a class="btn btn-primary" href="#projects" data-i18n="hero.primary">View projects</a>
+            <a class="btn btn-ghost" href="#about" data-i18n="hero.secondary">How we work</a>
           </div>
         </div>
+
         <div class="hero-visual reveal">
-          <div class="brand-wall">
-            <img src="assets/logo.png" alt="JAKS Engineering Lab" />
+          <div class="hero-panel glow-card">
+            <img src="assets/logo.png" alt="JAKS logo" />
+            <ul>
+              <li data-i18n="hero.tag1">3D Product Development</li>
+              <li data-i18n="hero.tag2">Smart NFC + IoT Systems</li>
+              <li data-i18n="hero.tag3">Mechanical Innovation</li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
 
     <section class="capabilities container reveal">
-      <article><span>▣</span><div><strong>Impresión 3D</strong><small>Diseño y fabricación</small></div></article>
-      <article><span>◈</span><div><strong>Electrónica & IoT</strong><small>Control y automatización</small></div></article>
-      <article><span>⚙</span><div><strong>Mecánica</strong><small>Diseño y prototipado</small></div></article>
-      <article><span>✦</span><div><strong>Innovación</strong><small>Ideas que se hacen reales</small></div></article>
-      <article><span>⌁</span><div><strong>Mantenimiento</strong><small>Soluciones confiables</small></div></article>
+      <article><span>▣</span><div><strong data-i18n="cap.1.title">3D Printing</strong><small data-i18n="cap.1.body">Design to functional part</small></div></article>
+      <article><span>◈</span><div><strong data-i18n="cap.2.title">Electronics & IoT</strong><small data-i18n="cap.2.body">Connected experiences</small></div></article>
+      <article><span>⚙</span><div><strong data-i18n="cap.3.title">Mechanical Design</strong><small data-i18n="cap.3.body">From concept to assembly</small></div></article>
+      <article><span>✦</span><div><strong data-i18n="cap.4.title">Innovation</strong><small data-i18n="cap.4.body">Inventing what does not exist</small></div></article>
+      <article><span>⌁</span><div><strong data-i18n="cap.5.title">Maintenance</strong><small data-i18n="cap.5.body">Reliable long-term operation</small></div></article>
     </section>
 
-    <section id="proyectos" class="section container">
+    <section id="projects" class="section container">
       <div class="section-head reveal">
-        <h2>Proyectos <span>destacados</span></h2>
-        <a class="mini-link" href="#contacto">Ver todos →</a>
+        <h2 data-i18n="projects.title">Featured <span>projects</span></h2>
       </div>
       <div class="project-grid">
         <article class="project-card reveal">
           <img src="assets/nfc-keychain.jpg" alt="NFC Contact Keychain" />
-          <div class="card-body"><small>NFC</small><h3>NFC Contact Keychain</h3><p>Producto corporativo que conecta clientes con WhatsApp, página web, contacto o propuesta con un solo toque.</p><a href="#contacto">Ver más →</a></div>
+          <div class="card-body"><small>NFC</small><h3>NFC Contact Keychain</h3><p data-i18n="projects.p1">A smart branded product that opens WhatsApp, website, portfolio, or proposals in one tap.</p></div>
         </article>
         <article class="project-card reveal">
           <img src="assets/glove-holder.jpg" alt="Retractable Glove Holder" />
-          <div class="card-body"><small>Mecánica</small><h3>Retractable Glove Holder</h3><p>Accesorio práctico para mantenimiento, mecánicos, warehouse e industria. Diseño útil, resistente y presentable.</p><a href="#contacto">Ver más →</a></div>
+          <div class="card-body"><small data-i18n="projects.tag2">Mechanical</small><h3>Retractable Glove Holder</h3><p data-i18n="projects.p2">Durable daily-use accessory designed for maintenance teams, warehouses, and industrial workflows.</p></div>
         </article>
         <article class="project-card reveal">
           <img src="assets/led-display.jpg" alt="LED display" />
-          <div class="card-body"><small>Diseño premium</small><h3>Custom LED Display</h3><p>Displays personalizados para marcas, nombres, anime art, setups y regalos con presentación profesional.</p><a href="#contacto">Ver más →</a></div>
+          <div class="card-body"><small data-i18n="projects.tag3">Premium visual</small><h3>Custom LED Display</h3><p data-i18n="projects.p3">High-impact display products for creators, stream setups, gifting, and branded environments.</p></div>
         </article>
         <article class="project-card reveal">
           <img src="assets/sample-box-open.jpg" alt="Premium sample box" />
-          <div class="card-body"><small>Presentación B2B</small><h3>Premium Client Sample Box</h3><p>Caja de muestra con productos, tarjeta QR/NFC y experiencia visual para presentar ofertas a clientes.</p><a href="#contacto">Ver más →</a></div>
+          <div class="card-body"><small>B2B</small><h3>Premium Client Sample Box</h3><p data-i18n="projects.p4">Branded packaging with product samples and NFC/QR touchpoints for sales-ready presentations.</p></div>
         </article>
       </div>
     </section>
 
-    <section id="sobre" class="section container about-section">
+    <section id="about" class="section container about-section">
       <div class="about-copy reveal">
-        <h2>Sobre <span>JAKS</span></h2>
-        <p>Somos un laboratorio de ingeniería mecatrónica que fusiona múltiples disciplinas para crear soluciones innovadoras, funcionales y visualmente profesionales.</p>
+        <h2 data-i18n="about.title">About <span>JAKS</span></h2>
+        <p data-i18n="about.copy">We are a mechatronics and innovation lab. We create professional solutions that merge utility, aesthetics, and performance.</p>
         <ul>
-          <li>Ingeniería mecatrónica</li>
-          <li>Diseño e impresión 3D</li>
-          <li>Electrónica e IoT</li>
-          <li>Diseño mecánico</li>
-          <li>Automatización y mantenimiento</li>
+          <li data-i18n="about.li1">Mechatronics engineering</li>
+          <li data-i18n="about.li2">3D design and fabrication</li>
+          <li data-i18n="about.li3">Embedded electronics + IoT</li>
+          <li data-i18n="about.li4">Mechanical systems</li>
+          <li data-i18n="about.li5">Automation and maintenance</li>
         </ul>
-        <a class="btn btn-outline" href="#servicios">Conoce más</a>
       </div>
-      <div id="video" class="video-card reveal">
+      <div class="video-card reveal">
         <img src="assets/workspace.jpg" alt="JAKS workspace" />
-        <button aria-label="Play video">▶</button>
       </div>
       <div class="stats-card reveal">
-        <article><strong>3D</strong><span>Diseño y prototipado</span></article>
-        <article><strong>NFC</strong><span>Productos inteligentes</span></article>
-        <article><strong>IoT</strong><span>Control y sensores</span></article>
-        <article><strong>∞</strong><span>Ideas sin límites</span></article>
+        <article><strong>+3</strong><span data-i18n="stats.1">Core engineering disciplines integrated</span></article>
+        <article><strong>End-to-End</strong><span data-i18n="stats.2">From idea to production-ready prototype</span></article>
+        <article><strong>Brand-first</strong><span data-i18n="stats.3">Designed to look premium and sell better</span></article>
       </div>
     </section>
 
-    <section id="servicios" class="section container">
+    <section id="services" class="section container">
       <div class="section-head reveal">
-        <h2>Nuestros <span>servicios</span></h2>
-        <a class="mini-link" href="#contacto">Ver todos →</a>
+        <h2 data-i18n="services.title">Our <span>services</span></h2>
       </div>
       <div class="service-grid">
-        <article class="service-card reveal"><span>▣</span><h3>Impresión 3D</h3><p>Desde prototipos hasta piezas funcionales de alta calidad.</p></article>
-        <article class="service-card reveal"><span>◈</span><h3>Electrónica & IoT</h3><p>Desarrollo de dispositivos inteligentes conectados.</p></article>
-        <article class="service-card reveal"><span>⚙</span><h3>Diseño mecánico</h3><p>Modelado 3D y simulaciones para proyectos mecánicos.</p></article>
-        <article class="service-card reveal"><span>✦</span><h3>Automatización</h3><p>Control de procesos y sistemas automatizados.</p></article>
-        <article class="service-card reveal"><span>⌁</span><h3>Mantenimiento</h3><p>Soluciones de mantenimiento preventivo y correctivo.</p></article>
-        <article class="service-card reveal"><span>⬢</span><h3>Consultoría</h3><p>Asesoría técnica para llevar tu idea al siguiente nivel.</p></article>
+        <article class="service-card reveal"><span>▣</span><h3 data-i18n="services.s1">3D Product Design</h3><p data-i18n="services.s1b">Rapid prototyping and production-grade parts.</p></article>
+        <article class="service-card reveal"><span>◈</span><h3 data-i18n="services.s2">Electronics & IoT</h3><p data-i18n="services.s2b">Smart hardware, sensors, and connected workflows.</p></article>
+        <article class="service-card reveal"><span>⚙</span><h3 data-i18n="services.s3">Mechanical Engineering</h3><p data-i18n="services.s3b">CAD, assemblies, and performance-focused mechanisms.</p></article>
+        <article class="service-card reveal"><span>✦</span><h3 data-i18n="services.s4">Automation</h3><p data-i18n="services.s4b">Operational efficiency through intelligent systems.</p></article>
+        <article class="service-card reveal"><span>⌁</span><h3 data-i18n="services.s5">Maintenance Solutions</h3><p data-i18n="services.s5b">Preventive and corrective technical support.</p></article>
+        <article class="service-card reveal"><span>⬢</span><h3 data-i18n="services.s6">Engineering Consulting</h3><p data-i18n="services.s6b">Strategic guidance to scale inventions into products.</p></article>
       </div>
     </section>
 
-    <section id="tienda" class="section container visual-strip reveal">
+    <section class="section container visual-strip reveal" aria-label="Product gallery">
       <div class="visual-card" style="background-image:url('assets/dfi-keychain.jpg')"><span>NFC Products</span></div>
       <div class="visual-card" style="background-image:url('assets/zoro-display.jpg')"><span>LED Art</span></div>
       <div class="visual-card" style="background-image:url('assets/hydra-display.jpg')"><span>RGB Displays</span></div>
       <div class="visual-card" style="background-image:url('assets/sample-box.jpg')"><span>Premium Packaging</span></div>
     </section>
 
-    <section id="idea-lab" class="container idea-cta reveal">
+    <section class="container idea-cta reveal">
       <div>
-        <h2>¿Tienes una <span>idea?</span></h2>
-        <h3>Nosotros la hacemos realidad</h3>
-        <p>Cuéntanos tu proyecto y nuestro enfoque de ingeniería lo hará posible.</p>
+        <h2 data-i18n="idea.title">Have an idea?</h2>
+        <h3 data-i18n="idea.subtitle">We can engineer it into reality.</h3>
+        <p data-i18n="idea.copy">Tell us your challenge and we will design a complete technical path to launch.</p>
       </div>
       <div class="cta-actions">
-        <a class="btn btn-primary" href="#contacto">Enviar idea</a>
-        <a class="btn btn-ghost" href="https://wa.me/18452704608" target="_blank" rel="noreferrer">Contactar por WhatsApp</a>
+        <a class="btn btn-primary" href="#contact" data-i18n="idea.primary">Send your idea</a>
+        <a class="btn btn-ghost" href="https://wa.me/18452704608" target="_blank" rel="noreferrer" data-i18n="idea.secondary">Chat on WhatsApp</a>
       </div>
     </section>
 
-    <section id="contacto" class="section container contact-section">
+    <section id="contact" class="section container contact-section">
       <div class="reveal">
-        <h2>Contacto</h2>
-        <p>¿Tienes una idea, producto o problema técnico? Hablemos y creemos una solución profesional.</p>
-        <p><strong>Teléfono:</strong> 845-270-4608</p>
-        <p><strong>Ubicación:</strong> New York / New Jersey</p>
+        <h2 data-i18n="contact.title">Contact</h2>
+        <p data-i18n="contact.copy">Need to build a custom product, prototype, or technical solution? Let's talk.</p>
+        <p><strong data-i18n="contact.phone">Phone:</strong> 845-270-4608</p>
+        <p><strong data-i18n="contact.location">Location:</strong> New York / New Jersey</p>
       </div>
       <form class="contact-form reveal" id="contactForm">
-        <label>Nombre<input id="contactName" type="text" placeholder="Tu nombre" required /></label>
-        <label>Tipo de proyecto<select id="contactType" required><option value="">Selecciona</option><option>NFC / Smart product</option><option>3D design / Prototype</option><option>Automation / IoT</option><option>LED display</option><option>Branding / Sample box</option><option>Other</option></select></label>
-        <label>Mensaje<textarea id="contactMessage" rows="5" placeholder="Explícame brevemente qué necesitas..." required></textarea></label>
-        <button class="btn btn-primary" type="submit">Preparar mensaje de WhatsApp</button>
+        <label><span data-i18n="form.name">Name</span><input id="contactName" type="text" data-i18n-placeholder="form.name.placeholder" placeholder="Your name" required /></label>
+        <label><span data-i18n="form.type">Project type</span><select id="contactType" required><option value="" data-i18n="form.pick">Select one</option><option data-i18n-option="form.option.nfc">NFC / Smart product</option><option data-i18n-option="form.option.3d">3D design / Prototype</option><option data-i18n-option="form.option.automation">Automation / IoT</option><option data-i18n-option="form.option.led">LED display</option><option data-i18n-option="form.option.branding">Branding / Sample box</option><option data-i18n-option="form.option.other">Other</option></select></label>
+        <label><span data-i18n="form.message">Message</span><textarea id="contactMessage" rows="5" data-i18n-placeholder="form.message.placeholder" placeholder="Tell us what you need..." required></textarea></label>
+        <button class="btn btn-primary" type="submit" data-i18n="form.cta">Prepare WhatsApp message</button>
       </form>
     </section>
   </main>
 
-  <a class="whatsapp-float" href="https://wa.me/18452704608" target="_blank" rel="noreferrer">☎</a>
+  <a class="whatsapp-float" href="https://wa.me/18452704608" target="_blank" rel="noreferrer" aria-label="Contact on WhatsApp">☎</a>
 
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div><img src="assets/logo.png" alt="JAKS logo" /><p>Ingeniería, innovación y tecnología al servicio de tus ideas.</p></div>
-      <div><h4>Enlaces</h4><a href="#inicio">Inicio</a><a href="#sobre">Sobre JAKS</a><a href="#servicios">Servicios</a><a href="#contacto">Contacto</a></div>
-      <div><h4>Síguenos</h4><p>Instagram • Facebook • YouTube • LinkedIn</p></div>
-      <div><h4>Contacto</h4><p>+1 845-270-4608<br />New York, USA</p></div>
+      <div><img src="assets/logo.png" alt="JAKS logo" /><p data-i18n="footer.brand">Engineering and innovation in service of your ideas.</p></div>
+      <div><h4 data-i18n="footer.links">Links</h4><a href="#home" data-i18n="nav.home">Home</a><a href="#about" data-i18n="nav.about">About</a><a href="#services" data-i18n="nav.services">Services</a><a href="#contact" data-i18n="nav.contact">Contact</a></div>
+      <div><h4 data-i18n="footer.follow">Follow</h4><p>Instagram • Facebook • YouTube • LinkedIn</p></div>
+      <div><h4 data-i18n="footer.contact">Contact</h4><p>+1 845-270-4608<br />New York, USA</p></div>
     </div>
-    <div class="container copyright">© 2026 JAKS Engineering Lab. Todos los derechos reservados.</div>
+    <div class="container copyright" data-i18n="footer.copy">© 2026 JAKS Engineering Lab. All rights reserved.</div>
   </footer>
 
   <script src="script.js"></script>
