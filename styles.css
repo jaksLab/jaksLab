@@ -173,6 +173,18 @@ p {
   background: rgba(255, 255, 255, 0.03);
 }
 
+.btn-social {
+  color: var(--text);
+  border: 1px solid var(--border);
+  background: rgba(104, 216, 255, 0.08);
+}
+
+.btn-social:hover {
+  border-color: rgba(255, 196, 0, 0.7);
+  color: var(--brand);
+  background: rgba(255, 196, 0, 0.08);
+}
+
 .lang-btn:focus-visible,
 .menu-toggle:focus-visible,
 .btn:focus-visible,
@@ -496,6 +508,11 @@ p {
   color: var(--brand);
 }
 
+.footer-social {
+  width: fit-content;
+  margin-bottom: 0.45rem;
+}
+
 .site-footer {
   margin-top: 4rem;
   border-top: 1px solid var(--border);
@@ -623,6 +640,10 @@ p {
   }
 
   .nav-actions .btn-outline {
+    display: none;
+  }
+
+  .nav-actions .btn-social {
     display: none;
   }
 

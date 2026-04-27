@@ -162,6 +162,8 @@ const i18n = {
     'footer.contact': 'Contact',
     'social.instagram': 'Instagram: @jaks9_3',
     'social.linkedin': 'LinkedIn: Jonathan Tapia',
+    'social.instagram.short': 'Instagram',
+    'social.linkedin.short': 'LinkedIn',
     'footer.copy': '© 2026 JAKS Engineering Lab. All rights reserved.'
   },
   es: {
@@ -248,6 +250,8 @@ const i18n = {
     'footer.contact': 'Contacto',
     'social.instagram': 'Instagram: @jaks9_3',
     'social.linkedin': 'LinkedIn: Jonathan Tapia',
+    'social.instagram.short': 'Instagram',
+    'social.linkedin.short': 'LinkedIn',
     'footer.copy': '© 2026 JAKS Engineering Lab. Todos los derechos reservados.'
   }
 };
