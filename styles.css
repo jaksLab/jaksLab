@@ -79,36 +79,15 @@ p {
 }
 
 .brand img {
-  width: 52px;
-  height: 52px;
+  width: 48px;
+  height: 48px;
   object-fit: contain;
   border-radius: 999px;
 }
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.55rem;
   text-decoration: none;
-}
-
-.brand span {
-  color: #eaf2ff;
-  letter-spacing: 0.18em;
-  font-size: 0.76rem;
-  font-weight: 500;
-}
-.brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
-  text-decoration: none;
-}
-
-.brand span {
-  color: #eaf2ff;
-  letter-spacing: 0.18em;
-  font-size: 0.76rem;
-  font-weight: 500;
 }
 
 .menu {
@@ -390,11 +369,10 @@ p {
 
 .project-card img {
   width: 100%;
-  aspect-ratio: 4 / 3;
-  min-height: 190px;
-  object-fit: contain;
+  height: 210px;
+  object-fit: cover;
+  object-position: center;
   background: #05080d;
-  padding: 0.35rem;
 }
 
 .card-body {
@@ -438,7 +416,8 @@ p {
   height: 100%;
   display: block;
   border-radius: 10px;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center;
   background: #05080d;
 }
 
