@@ -3,208 +3,36 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="JAKS Engineering Lab designs, builds, and invents premium engineering products with 3D printing, electronics, IoT, and mechanical innovation." />
-  <title>JAKS Engineering Lab | Design. Build. Automate.</title>
-  <link rel="icon" href="assets/logo.png?v=20260529" />
+  <meta name="description" content="JAKS Engineering Lab creates custom products, 3D printed items, smart devices, repairs and practical technical solutions for people and small businesses in New York and New Jersey." />
+  <title>JAKS Engineering Lab | Custom Products & Smart Technical Solutions</title>
+  <link rel="icon" href="./assets/logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <div class="scroll-progress" aria-hidden="true"></div>
-
-  <header class="site-header" id="top">
-    <div class="container nav">
-      <a href="#home" class="brand" aria-label="JAKS Home">
-        <img src="assets/logo.png?v=20260529" alt="JAKS Engineering Lab logo" width="64" height="64" />
-        <span>JAKS ENGINEERING LAB</span>
-      </a>
-
-      <nav class="menu" id="menu" aria-label="Main Navigation">
-        <a class="active" href="#home" data-i18n="nav.home">Home</a>
-        <a href="#about" data-i18n="nav.about">About</a>
-        <a href="#services" data-i18n="nav.services">Services</a>
-        <a href="#projects" data-i18n="nav.projects">Projects</a>
-        <a href="#contact" data-i18n="nav.contact">Contact</a>
-      </nav>
-
-      <div class="nav-actions">
-        <div class="lang-switch" role="group" aria-label="Language selector">
-          <button class="lang-btn active" type="button" data-lang="en">EN</button>
-          <button class="lang-btn" type="button" data-lang="es">ES</button>
-        </div>
-        <a class="btn btn-social social-icon social-icon-only" href="https://instagram.com/jaks9_3" target="_blank" rel="noopener noreferrer" aria-label="Instagram JAKS">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9Zm9.75 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg>
-          <span class="sr-only">Instagram</span>
-        </a>
-        <a class="btn btn-social social-icon social-icon-only" href="https://www.linkedin.com/in/jonathan-tapia-594853315/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Jonathan Tapia">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.9 8.2a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2ZM5 9.8h3.8V21H5V9.8Zm6.1 0h3.6v1.5h.1c.5-1 1.8-1.9 3.7-1.9 4 0 4.7 2.5 4.7 5.9V21h-3.8v-4.8c0-1.1 0-2.6-1.7-2.6s-1.9 1.2-1.9 2.5V21h-3.8V9.8Z"/></svg>
-          <span class="sr-only">LinkedIn</span>
-        </a>
-        <a class="btn btn-outline" href="#contact" data-i18n="header.cta">Start your project</a>
-      </div>
-
-      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu">☰</button>
-    </div>
-  </header>
-
-  <main id="home">
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy reveal">
-          <p class="eyebrow" data-i18n="hero.eyebrow">Engineering solutions that drive progress</p>
-          <h1 data-i18n="hero.title">Engineering ideas into <span>real products</span>.</h1>
-          <p class="hero-lead" data-i18n="hero.copy">
-            JAKS combines 3D design, electronics, mechanics, and automation to engineer launch-ready products with premium branding.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#projects" data-i18n="hero.primary">Explore projects</a>
-            <a class="btn btn-ghost" href="#about" data-i18n="hero.secondary">How we work</a>
-          </div>
-        </div>
-
-        <div class="hero-visual reveal">
-          <div class="hero-panel glow-card">
-            <img src="assets/logo.png?v=20260529" alt="JAKS logo" loading="lazy" width="420" height="420" />
-            <ul>
-              <li data-i18n="hero.tag1">3D Product Development</li>
-              <li data-i18n="hero.tag2">Smart NFC + IoT Systems</li>
-              <li data-i18n="hero.tag3">Mechanical Innovation + Automation</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="capabilities container reveal">
-      <article><span>▣</span><div><strong data-i18n="cap.1.title">3D Printing</strong><small data-i18n="cap.1.body">Design to functional part</small></div></article>
-      <article><span>◈</span><div><strong data-i18n="cap.2.title">Electronics & IoT</strong><small data-i18n="cap.2.body">Connected experiences</small></div></article>
-      <article><span>⚙</span><div><strong data-i18n="cap.3.title">Mechanical Design</strong><small data-i18n="cap.3.body">From concept to assembly</small></div></article>
-      <article><span>✦</span><div><strong data-i18n="cap.4.title">Innovation</strong><small data-i18n="cap.4.body">Inventing what does not exist</small></div></article>
-      <article><span>⌁</span><div><strong data-i18n="cap.5.title">Maintenance</strong><small data-i18n="cap.5.body">Reliable long-term operation</small></div></article>
-    </section>
-
-    <section id="projects" class="section container">
-      <div class="section-head reveal">
-        <h2 data-i18n="projects.title">Real projects. <span>Real impact.</span></h2>
-      </div>
-      <div class="project-grid">
-        <article class="project-card reveal">
-          <img src="assets/nfc-keychain.jpg" alt="NFC Contact Keychain" loading="lazy" />
-          <div class="card-body"><small>NFC</small><h3>NFC Contact Keychain</h3><p data-i18n="projects.p1">A smart branded product that opens WhatsApp, website, portfolio, or proposals in one tap.</p></div>
-        </article>
-        <article class="project-card reveal">
-          <img src="assets/glove-holder.jpg" alt="Retractable Glove Holder" loading="lazy" />
-          <div class="card-body"><small data-i18n="projects.tag2">Mechanical</small><h3>Retractable Glove Holder</h3><p data-i18n="projects.p2">Durable daily-use accessory designed for maintenance teams, warehouses, and industrial workflows.</p></div>
-        </article>
-        <article class="project-card reveal">
-          <img src="assets/led-display.jpg" alt="LED display" loading="lazy" />
-          <div class="card-body"><small data-i18n="projects.tag3">Premium visual</small><h3>Custom LED Display</h3><p data-i18n="projects.p3">High-impact display products for creators, stream setups, gifting, and branded environments.</p></div>
-        </article>
-        <article class="project-card reveal">
-          <img src="assets/sample-box-open.jpg" alt="Premium sample box" loading="lazy" />
-          <div class="card-body"><small>B2B</small><h3>Premium Client Sample Box</h3><p data-i18n="projects.p4">Branded packaging with product samples and NFC/QR touchpoints for sales-ready presentations.</p></div>
-        </article>
-        <article class="project-card reveal">
-          <img src="assets/dfi-keychain.jpg" alt="NFC product close-up" loading="lazy" />
-          <div class="card-body"><small>NFC / UX</small><h3>Smart Product UX</h3><p data-i18n="projects.p5">Connected touchpoint products designed to create premium first impressions and frictionless access.</p></div>
-        </article>
-        <article class="project-card reveal">
-          <img src="assets/zoro-display.jpg" alt="RGB display product" loading="lazy" />
-          <div class="card-body"><small>Digital Promotion</small><h3>Brand Visibility Displays</h3><p data-i18n="projects.p6">Custom illuminated branding pieces for desks, studios, events, and client-facing spaces.</p></div>
-        </article>
-      </div>
-    </section>
-
-    <section id="about" class="section container about-section">
-      <div class="about-copy reveal">
-        <h2 data-i18n="about.title">About <span>JAKS</span></h2>
-        <p data-i18n="about.copy">We are a mechatronics and innovation lab. We create professional solutions that merge utility, aesthetics, and performance.</p>
-        <ul>
-          <li data-i18n="about.li1">Mechatronics engineering</li>
-          <li data-i18n="about.li2">3D design and fabrication</li>
-          <li data-i18n="about.li3">Embedded electronics + IoT</li>
-          <li data-i18n="about.li4">Mechanical systems</li>
-          <li data-i18n="about.li5">Automation and maintenance</li>
-        </ul>
-      </div>
-      <div class="video-card reveal">
-        <img src="assets/workspace.jpg" alt="JAKS workspace" loading="lazy" />
-      </div>
-      <div class="stats-card reveal">
-        <article><strong>+3</strong><span data-i18n="stats.1">Core engineering disciplines integrated</span></article>
-        <article><strong>End-to-End</strong><span data-i18n="stats.2">From idea to production-ready prototype</span></article>
-        <article><strong>Brand-first</strong><span data-i18n="stats.3">Designed to look premium and sell better</span></article>
-      </div>
-    </section>
-
-    <section id="services" class="section container">
-      <div class="section-head reveal">
-        <h2 data-i18n="services.title">Our <span>services</span></h2>
-      </div>
-      <div class="service-grid">
-        <article class="service-card reveal"><span>▣</span><h3 data-i18n="services.s1">3D Product Design</h3><p data-i18n="services.s1b">Rapid prototyping and production-grade parts.</p></article>
-        <article class="service-card reveal"><span>◈</span><h3 data-i18n="services.s2">Electronics & IoT</h3><p data-i18n="services.s2b">Smart hardware, sensors, and connected workflows.</p></article>
-        <article class="service-card reveal"><span>⚙</span><h3 data-i18n="services.s3">Mechanical Engineering</h3><p data-i18n="services.s3b">CAD, assemblies, and performance-focused mechanisms.</p></article>
-        <article class="service-card reveal"><span>✦</span><h3 data-i18n="services.s4">Automation</h3><p data-i18n="services.s4b">Operational efficiency through intelligent systems.</p></article>
-        <article class="service-card reveal"><span>⌁</span><h3 data-i18n="services.s5">Maintenance Solutions</h3><p data-i18n="services.s5b">Preventive and corrective technical support.</p></article>
-        <article class="service-card reveal"><span>⬢</span><h3 data-i18n="services.s6">Engineering Consulting</h3><p data-i18n="services.s6b">Strategic guidance to scale inventions into products.</p></article>
-      </div>
-    </section>
-
-    <section class="section container visual-strip reveal" aria-label="Product gallery">
-      <div class="visual-card" style="background-image:url('assets/dfi-keychain.jpg')"><span>NFC Products</span></div>
-      <div class="visual-card" style="background-image:url('assets/zoro-display.jpg')"><span>LED Art</span></div>
-      <div class="visual-card" style="background-image:url('assets/hydra-display.jpg')"><span>RGB Displays</span></div>
-      <div class="visual-card" style="background-image:url('assets/sample-box.jpg')"><span>Premium Packaging</span></div>
-    </section>
-
-    <section class="container idea-cta reveal">
-      <div>
-        <h2 data-i18n="idea.title">Have an idea?</h2>
-        <h3 data-i18n="idea.subtitle">We can engineer it into reality.</h3>
-        <p data-i18n="idea.copy">Tell us your challenge and we will design a complete technical path to launch.</p>
-      </div>
-      <div class="cta-actions">
-        <a class="btn btn-primary" href="#contact" data-i18n="idea.primary">Send your idea</a>
-        <a class="btn btn-ghost" href="https://wa.me/18452704608" target="_blank" rel="noreferrer" data-i18n="idea.secondary">Chat on WhatsApp</a>
-      </div>
-    </section>
-
-    <section id="contact" class="section container contact-section">
-      <div class="reveal">
-        <h2 data-i18n="contact.title">Contact</h2>
-        <p data-i18n="contact.copy">Need to build a custom product, prototype, or technical solution? Let's talk.</p>
-        <p><strong data-i18n="contact.phone">Phone:</strong> 845-270-4608</p>
-        <p><strong data-i18n="contact.location">Location:</strong> New York / New Jersey</p>
-        <p><strong data-i18n="contact.follow">Follow:</strong></p>
-        <div class="social-links">
-          <a class="btn btn-social social-icon" href="https://instagram.com/jaks9_3" target="_blank" rel="noopener noreferrer" aria-label="Instagram JAKS"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9Zm9.75 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg><span data-i18n="social.instagram">Instagram: @jaks9_3</span></a>
-          <a class="btn btn-social social-icon" href="https://www.linkedin.com/in/jonathan-tapia-594853315/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Jonathan Tapia"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.9 8.2a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2ZM5 9.8h3.8V21H5V9.8Zm6.1 0h3.6v1.5h.1c.5-1 1.8-1.9 3.7-1.9 4 0 4.7 2.5 4.7 5.9V21h-3.8v-4.8c0-1.1 0-2.6-1.7-2.6s-1.9 1.2-1.9 2.5V21h-3.8V9.8Z"/></svg><span data-i18n="social.linkedin">LinkedIn: Jonathan Tapia</span></a>
-        </div>
-      </div>
-      <form class="contact-form reveal" id="contactForm">
-        <label><span data-i18n="form.name">Name</span><input id="contactName" type="text" data-i18n-placeholder="form.name.placeholder" placeholder="Your name" required /></label>
-        <label><span data-i18n="form.type">Project type</span><select id="contactType" required><option value="" data-i18n="form.pick">Select one</option><option data-i18n-option="form.option.nfc">NFC / Smart product</option><option data-i18n-option="form.option.3d">3D design / Prototype</option><option data-i18n-option="form.option.automation">Automation / IoT</option><option data-i18n-option="form.option.led">LED display</option><option data-i18n-option="form.option.branding">Branding / Sample box</option><option data-i18n-option="form.option.other">Other</option></select></label>
-        <label><span data-i18n="form.message">Message</span><textarea id="contactMessage" rows="5" data-i18n-placeholder="form.message.placeholder" placeholder="Tell us what you need..." required></textarea></label>
-        <button class="btn btn-primary" type="submit" data-i18n="form.cta">Prepare WhatsApp message</button>
-      </form>
-    </section>
+  <div id="app-status" class="app-status" role="status">
+    Loading JAKS Engineering Lab… If you opened this file directly, run <strong>npm start</strong> and open <strong>http://localhost:4173/</strong>.
+  </div>
+  <header id="header"></header>
+  <main>
+    <section id="hero"></section>
+    <section id="services"></section>
+    <section id="products"></section>
+    <section id="gallery"></section>
+    <section id="projects"></section>
+    <section id="how-it-works"></section>
+    <section id="about"></section>
+    <section id="contact"></section>
   </main>
-
-  <a class="whatsapp-float" href="https://wa.me/18452704608" target="_blank" rel="noreferrer" aria-label="Contact on WhatsApp">☎</a>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div><img src="assets/logo.png?v=20260529" alt="JAKS logo" width="64" height="64" /><p data-i18n="footer.brand">Engineering and innovation in service of your ideas.</p></div>
-      <div><h4 data-i18n="footer.links">Links</h4><a href="#home" data-i18n="nav.home">Home</a><a href="#about" data-i18n="nav.about">About</a><a href="#services" data-i18n="nav.services">Services</a><a href="#contact" data-i18n="nav.contact">Contact</a></div>
-      <div><h4 data-i18n="footer.follow">Follow</h4><a class="btn btn-social social-icon footer-social" href="https://instagram.com/jaks9_3" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9Zm9.75 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg><span data-i18n="social.instagram">Instagram: @jaks9_3</span></a><a class="btn btn-social social-icon footer-social" href="https://www.linkedin.com/in/jonathan-tapia-594853315/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.9 8.2a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2ZM5 9.8h3.8V21H5V9.8Zm6.1 0h3.6v1.5h.1c.5-1 1.8-1.9 3.7-1.9 4 0 4.7 2.5 4.7 5.9V21h-3.8v-4.8c0-1.1 0-2.6-1.7-2.6s-1.9 1.2-1.9 2.5V21h-3.8V9.8Z"/></svg><span data-i18n="social.linkedin">LinkedIn: Jonathan Tapia</span></a></div>
-      <div><h4 data-i18n="footer.contact">Contact</h4><p>+1 845-270-4608<br />New York, USA</p></div>
-    </div>
-    <div class="container copyright" data-i18n="footer.copy">© 2026 JAKS Engineering Lab. All rights reserved.</div>
-  </footer>
-
-  <script src="script.js"></script>
+  <footer id="footer"></footer>
+  <div id="whatsapp-button"></div>
+  <script>
+    if (window.location.protocol === 'file:') {
+      document.getElementById('app-status').innerHTML = 'This website uses ES modules and cannot run by double-clicking index.html. Open a terminal in this folder, run <strong>npm start</strong>, then visit <strong>http://localhost:4173/</strong>.';
+    }
+  </script>
+  <script type="module" src="./script.js"></script>
 </body>
 </html>
