@@ -18,15 +18,15 @@ export const gallery = [
     category: 'Personalized Gifts',
     images: [
       {
-        src: './assets/images/gallery/country-decor/colombia-01.svg',
+        src: './assets/images/gallery/country-decor/colombia-01.png',
         alt: 'Colombia custom wall decor'
       },
       {
-        src: './assets/images/gallery/country-decor/venezuela-01.svg',
+        src: './assets/images/gallery/country-decor/venezuela-01.png',
         alt: 'Venezuela custom wall decor'
       },
       {
-        src: './assets/images/gallery/country-decor/dominican-republic-01.svg',
+        src: './assets/images/gallery/country-decor/dominican-republic-01.png',
         alt: 'Dominican Republic custom wall decor'
       },
       {
