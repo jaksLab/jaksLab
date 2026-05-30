@@ -1,0 +1,11 @@
+{
+  "name": "jaks-engineering-lab-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static GitHub Pages site for JAKS Engineering Lab.",
+  "scripts": {
+    "start": "node scripts/dev-server.mjs",
+    "serve": "node scripts/dev-server.mjs"
+  }
+}
