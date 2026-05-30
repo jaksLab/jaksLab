@@ -57,6 +57,55 @@ function setupQuoteForm() {
   });
 }
 
+
+function setupMediaCarousels() {
+  document.querySelectorAll('[data-carousel]').forEach((carousel) => {
+    const images = [...carousel.querySelectorAll('[data-carousel-image]')];
+    const dots = [...carousel.querySelectorAll('[data-carousel-dot]')];
+    const buttons = [...carousel.querySelectorAll('[data-carousel-action]')];
+    if (images.length <= 1) return;
+
+    let activeIndex = Number(carousel.dataset.carouselIndex || 0);
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    const updateCarousel = (nextIndex) => {
+      activeIndex = (nextIndex + images.length) % images.length;
+      carousel.dataset.carouselIndex = String(activeIndex);
+      images.forEach((image, index) => {
+        image.classList.toggle('media-carousel__image--active', index === activeIndex);
+      });
+      dots.forEach((dot, index) => {
+        dot.classList.toggle('media-carousel__dot--active', index === activeIndex);
+        dot.setAttribute('aria-current', index === activeIndex ? 'true' : 'false');
+      });
+    };
+
+    buttons.forEach((button) => {
+      button.addEventListener('click', () => {
+        updateCarousel(button.dataset.carouselAction === 'next' ? activeIndex + 1 : activeIndex - 1);
+      });
+    });
+
+    dots.forEach((dot) => {
+      dot.addEventListener('click', () => updateCarousel(Number(dot.dataset.carouselDot)));
+    });
+
+    carousel.addEventListener('touchstart', (event) => {
+      touchStartX = event.changedTouches[0].screenX;
+    }, { passive: true });
+
+    carousel.addEventListener('touchend', (event) => {
+      touchEndX = event.changedTouches[0].screenX;
+      const swipeDistance = touchEndX - touchStartX;
+      if (Math.abs(swipeDistance) < 40) return;
+      updateCarousel(swipeDistance < 0 ? activeIndex + 1 : activeIndex - 1);
+    }, { passive: true });
+
+    updateCarousel(activeIndex);
+  });
+}
+
 function setupRevealAnimation() {
   const items = document.querySelectorAll('.reveal');
   if (!('IntersectionObserver' in window)) {
@@ -92,6 +141,7 @@ function init() {
   renderGallery();
   renderProjects();
   setupMobileMenu();
+  setupMediaCarousels();
   setupQuoteForm();
   setupRevealAnimation();
   verifyImagePaths();

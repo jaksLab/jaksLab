@@ -1,4 +1,5 @@
 // Gallery examples. Add real finished work or clear examples only; do not add fake testimonials.
+// Use `images` with more than one item to automatically show a carousel. Legacy `image` still works.
 export const gallery = [
   {
     id: 'gallery-dfi-keychain',
@@ -12,15 +13,32 @@ export const gallery = [
     whatsappMessage: 'Hi JAKS, I want something like the Custom NFC Business Keychain from the gallery.'
   },
   {
-    id: 'gallery-colombia-decor',
-    title: 'Country-Inspired Custom Decor',
-    category: 'Custom Products',
-    image: './assets/colombia.png',
-    clientNeed: 'A personalized cultural decor piece for a meaningful space or gift.',
-    jaksSolution: 'Created a country-inspired design with custom colors and a clean display finish.',
-    valueGenerated: 'Turns identity, culture and a personal idea into a real product.',
-    tags: ['Decor', 'Gift', 'Custom'],
-    whatsappMessage: 'Hi JAKS, I want a custom country decor piece like the gallery example.'
+    id: 'gallery-custom-country-wall-decor',
+    title: 'Custom Country Wall Decor',
+    category: 'Personalized Gifts',
+    images: [
+      {
+        src: './assets/images/gallery/country-decor/colombia-01.svg',
+        alt: 'Colombia custom wall decor'
+      },
+      {
+        src: './assets/images/gallery/country-decor/venezuela-01.svg',
+        alt: 'Venezuela custom wall decor'
+      },
+      {
+        src: './assets/images/gallery/country-decor/dominican-republic-01.svg',
+        alt: 'Dominican Republic custom wall decor'
+      },
+      {
+        src: './assets/images/gallery/country-decor/ecuador-01.svg',
+        alt: 'Ecuador custom wall decor'
+      }
+    ],
+    clientNeed: 'Customers want personalized decorations inspired by their country, culture or special memories.',
+    jaksSolution: 'JAKS designs and fabricates custom country-themed decor pieces with 3D printing, colors, names and optional LED details.',
+    valueGenerated: 'A meaningful personalized product that works as a gift, room decoration, event detail or cultural piece.',
+    tags: ['3D Printing', 'Country Decor', 'Personalized Gift'],
+    whatsappMessage: 'Hi JAKS, I want a custom country wall decor.'
   },
   {
     id: 'gallery-hydra-display',

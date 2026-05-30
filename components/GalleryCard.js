@@ -1,9 +1,9 @@
-import { createWhatsAppLink, renderTags } from '../scripts/utils.js';
+import { createWhatsAppLink, renderMediaCarousel, renderTags } from '../scripts/utils.js';
 
 export function GalleryCard(item) {
   return `
     <article class="gallery-card card-hover">
-      <img src="${item.image}" alt="${item.title}" loading="lazy" />
+      ${renderMediaCarousel(item, item.title, 'gallery-media')}
       <div class="card-body">
         <p class="card-kicker">${item.category}</p>
         <h3>${item.title}</h3>
