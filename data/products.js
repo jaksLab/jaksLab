@@ -57,15 +57,15 @@ export const products = [
     customizationOptions: ['Country', 'Name', 'Colors', 'Size', 'LED Option'],
     images: [
       {
-        src: './assets/images/products/country-decor/colombia-01.svg',
+        src: './assets/images/products/country-decor/colombia-01.png',
         alt: 'Colombia custom country wall decor'
       },
       {
-        src: './assets/images/products/country-decor/venezuela-01.svg',
+        src: './assets/images/products/country-decor/venezuela-01.png',
         alt: 'Venezuela custom country wall decor'
       },
       {
-        src: './assets/images/products/country-decor/dominican-republic-01.svg',
+        src: './assets/images/products/country-decor/dominican-republic-01.png',
         alt: 'Dominican Republic custom country wall decor'
       }
     ],
