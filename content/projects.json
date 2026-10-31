@@ -1,0 +1,375 @@
+[
+  {
+    "slug": "splice-detection",
+    "title": "Splice Detection Automation",
+    "category": "Automation",
+    "status": "Documentation in Progress",
+    "origin": "Engineering project experience",
+    "visual": "splice",
+    "featured": true,
+    "summary": "Automation work focused on detecting a splice and integrating that event into a machine workflow.",
+    "tags": [
+      "Splice detection",
+      "Sensing",
+      "Control integration"
+    ],
+    "challenge": "Detect a splice within a material-processing workflow and connect that event to the required machine behavior.",
+    "constraints": [
+      "Document the material and operating conditions",
+      "Define the detection event and required control response",
+      "Keep project attribution and technical evidence clear"
+    ],
+    "approach": "Structure the case around the detection problem, the interface to the control system and the required machine response. The final component choices and control sequence will be documented from the project records.",
+    "development": "Jonathan has carried out splice-detection automation work. This portfolio entry introduces that experience; the equipment context, dates and detailed implementation are still being documented.",
+    "validation": "Photos, the confirmed sensing method, test conditions and measured outcomes will be added to the record. No detection rate, speed or downtime improvement is claimed here.",
+    "outcome": "Splice-detection automation experience, with the technical case study being prepared.",
+    "next": [
+      "Add project photos or a permitted demonstration",
+      "Record the sensing principle and control sequence",
+      "Describe Jonathan’s contribution and project context",
+      "Document observed behavior and test results"
+    ],
+    "linkedin": "My automation experience includes splice detection: connecting a physical event to useful machine behavior. I am documenting the problem, sensing approach, control integration and test observations in my engineering portfolio.",
+    "cover": {
+      "src": "./v2/assets/portfolio/splice-concept-v1.png",
+      "alt": "AI-generated concept illustration: Material-handling assembly with a sensing bracket and a subtle joined seam.",
+      "kind": "AI-generated concept visual"
+    }
+  },
+  {
+    "slug": "industrial-metal-detection",
+    "title": "Industrial Metal Detection",
+    "category": "Automation",
+    "status": "Documentation in Progress",
+    "origin": "Professional experience · Continental Tire",
+    "visual": "metal",
+    "featured": true,
+    "summary": "A metal-detection automation project completed as part of Jonathan’s professional experience at Continental Tire.",
+    "tags": [
+      "Metal detection",
+      "Industrial automation",
+      "Professional experience"
+    ],
+    "challenge": "Integrate metal detection into an industrial automation workflow.",
+    "constraints": [
+      "Represent the individual contribution accurately",
+      "Keep company equipment and internal records confidential",
+      "Publish only permitted project details"
+    ],
+    "approach": "Explain how the detection need was translated into control behavior and an industrial workflow. Component references, architecture and sequence details will be included only when confirmed and appropriate to share.",
+    "development": "Jonathan developed a metal-detection automation project during his work at Continental Tire. This is presented as professional experience, separate from JAKS client projects.",
+    "validation": "The current record does not publish internal equipment information or measured production results. Permitted photos, a high-level architecture and approved test observations can strengthen the case study.",
+    "outcome": "Practical industrial automation experience incorporating metal detection.",
+    "next": [
+      "Describe the project scope and Jonathan’s role",
+      "Prepare a permitted high-level architecture",
+      "Add non-confidential evidence and test observations"
+    ],
+    "linkedin": "My professional experience at Continental Tire includes a metal-detection automation project. This portfolio record will focus on the engineering problem, my contribution and the control approach, while keeping internal company information confidential.",
+    "cover": {
+      "src": "./v2/assets/portfolio/metal-concept-v1.png",
+      "alt": "AI-generated concept illustration: Generic metal-detection tunnel integrated into a short industrial conveyor.",
+      "kind": "AI-generated concept visual"
+    }
+  },
+  {
+    "slug": "automated-industrial-mill",
+    "title": "Automated Industrial Mill",
+    "category": "Automation",
+    "status": "Documentation in Progress",
+    "origin": "Academic engineering project · Thesis",
+    "visual": "mill",
+    "featured": true,
+    "summary": "An automated industrial mill developed as Jonathan’s mechatronics engineering thesis project.",
+    "tags": [
+      "Thesis",
+      "Electromechanics",
+      "Automation"
+    ],
+    "challenge": "Develop an industrial mill with automatic operation as an integrated mechatronics project.",
+    "constraints": [
+      "Connect the mechanical process and control requirements",
+      "Document the actual scope of automatic operation",
+      "Distinguish design specifications from measured results"
+    ],
+    "approach": "Present the mechanical system, control architecture and operating sequence together, showing the engineering decisions behind the thesis build.",
+    "development": "Jonathan created an automated industrial mill for his thesis. The public record will be expanded with the thesis title, process details, drawings, photos and the confirmed components used.",
+    "validation": "The thesis report, operating demonstration and recorded tests are not yet attached to this portfolio entry. Throughput, precision and other performance values are therefore not stated.",
+    "outcome": "A built academic automation project that connects mechatronics education with physical equipment development.",
+    "next": [
+      "Add the exact thesis title and project dates",
+      "Include permitted photos, drawings or a demonstration",
+      "Document the automatic sequence and engineering decisions",
+      "Extract the actual test results from the thesis"
+    ],
+    "linkedin": "For my mechatronics engineering thesis, I developed an automated industrial mill. I am preparing a case study connecting the mechanical process, automatic sequence, control architecture and recorded tests.",
+    "cover": {
+      "src": "./v2/assets/portfolio/mill-concept-v1.png",
+      "alt": "AI-generated concept illustration: Conceptual automated industrial mill, hopper, motor and control enclosure.",
+      "kind": "AI-generated concept visual"
+    }
+  },
+  {
+    "slug": "ai-maintenance-copilot",
+    "title": "AI Maintenance Copilot",
+    "category": "Digital Tools",
+    "status": "Research",
+    "origin": "Independent R&D",
+    "visual": "copilot",
+    "featured": false,
+    "summary": "Exploring a faster way to turn voice notes and photos into structured maintenance records.",
+    "tags": [
+      "Maintenance",
+      "AI workflow",
+      "Documentation"
+    ],
+    "challenge": "Maintenance documentation competes with hands-on work. The concept explores capturing observations in the moment and organizing them into a reviewable record.",
+    "constraints": [
+      "Technician review before accepting a report",
+      "Clear separation of observations and hypotheses",
+      "Permission to capture equipment information",
+      "A simple workflow that can be used during real work"
+    ],
+    "approach": "Start with the documentation workflow: capture, structure, review and export. Define a useful report format before selecting dedicated hardware.",
+    "development": "The current work is problem definition and architecture exploration. Voice capture, photo handling and report generation are proposed features; a working dedicated device is not yet demonstrated.",
+    "validation": "No verified time savings, diagnostic accuracy or production deployment results are available. The first proposed test compares manually written notes with a reviewed draft generated from the same observations.",
+    "outcome": "A defined research direction for a maintenance documentation assistant. The project remains in research.",
+    "next": [
+      "Define one intervention-record template",
+      "Test a phone-first capture workflow",
+      "Measure editing time and missing information",
+      "Decide whether dedicated hardware adds value"
+    ],
+    "linkedin": "I'm exploring a maintenance documentation assistant that turns observations into structured, reviewable records. The project is in research: the next step is to test the capture-and-review workflow before building dedicated hardware.",
+    "cover": {
+      "src": "./v2/assets/portfolio/copilot-concept-v1.png",
+      "alt": "AI-generated concept illustration: Rugged maintenance capture-device concept beside a motor and report tablet.",
+      "kind": "AI-generated concept visual"
+    }
+  },
+  {
+    "slug": "serviceloop",
+    "title": "JAKS ServiceLoop",
+    "category": "IoT",
+    "status": "In Development",
+    "origin": "Independent project",
+    "visual": "loop",
+    "featured": false,
+    "summary": "An NFC and QR service touchpoint concept for independent automotive workshops.",
+    "tags": [
+      "NFC / QR",
+      "Web interface",
+      "B2B"
+    ],
+    "challenge": "A workshop needs a simple way for a customer to revisit service information and contact the business after a visit.",
+    "constraints": [
+      "Keep workshop updates simple",
+      "Protect customer and vehicle information",
+      "Make the link useful without installing an app",
+      "Validate a real workshop workflow before scaling"
+    ],
+    "approach": "Explore a customer-facing service page linked from an NFC tag or QR code, with a separate workflow for updating workshop information.",
+    "development": "Early web-interface work and feature definition cover service dates, mileage, contact actions and possible loyalty features. The full operational workflow and access controls still need validation.",
+    "validation": "No live customer adoption, retention uplift or recurring revenue is claimed. Authentication, data handling and workshop testing remain open work.",
+    "outcome": "An independent product direction under development, not a released subscription platform.",
+    "next": [
+      "Interview a workshop owner",
+      "Choose one service follow-up workflow",
+      "Validate staff access and data handling",
+      "Run a limited pilot with explicit consent"
+    ],
+    "linkedin": "JAKS ServiceLoop explores how an NFC or QR touchpoint could keep workshop service information accessible. It is in development; the next milestone is a small workshop workflow test, not a revenue claim.",
+    "cover": {
+      "src": "./v2/assets/portfolio/loop-concept-v1.png",
+      "alt": "AI-generated concept illustration: NFC touchpoint and phone service-interface concept in an automotive workshop.",
+      "kind": "AI-generated concept visual"
+    }
+  },
+  {
+    "slug": "maintenance-inventory",
+    "title": "Maintenance Inventory System",
+    "category": "Digital Tools",
+    "status": "Prototype",
+    "origin": "Independent workflow prototype",
+    "visual": "inventory",
+    "featured": false,
+    "summary": "A spreadsheet-based approach to finding parts, seeing stock and organizing purchase information.",
+    "tags": [
+      "Inventory",
+      "Search",
+      "Purchase workflow"
+    ],
+    "challenge": "A maintenance team needs to find parts by manufacturer, description or exact code while retaining quantity and location context.",
+    "constraints": [
+      "Useful general and exact-code search",
+      "Keep descriptions, locations and quantities visible",
+      "Make updates understandable to the person maintaining the file"
+    ],
+    "approach": "Organize a master parts list and connect it to search, stock views and purchase-order workflows.",
+    "development": "A workbook prototype has been developed around a master list, broader part searches and purchase information. Public examples must use synthetic, non-company data.",
+    "validation": "No quantified stock reduction or purchasing improvement is claimed. A demonstration dataset and repeatable user tasks are the next validation step.",
+    "outcome": "A workflow prototype that can be demonstrated with non-confidential sample data.",
+    "next": [
+      "Prepare a synthetic demonstration dataset",
+      "Test broad manufacturer search and exact part lookup",
+      "Document the stock-update workflow",
+      "Record usability findings"
+    ],
+    "linkedin": "I developed a maintenance inventory workbook prototype focused on practical part lookup: broad manufacturer searches, exact codes, quantities and locations. The next step is a repeatable usability test with synthetic data.",
+    "cover": {
+      "src": "./v2/assets/portfolio/inventory-concept-v1.png",
+      "alt": "AI-generated concept illustration: Organized industrial spare parts and an abstract inventory interface.",
+      "kind": "AI-generated concept visual"
+    }
+  },
+  {
+    "slug": "nfc-business-touchpoint",
+    "title": "NFC Business Touchpoint",
+    "category": "Product Development",
+    "status": "Prototype",
+    "origin": "Independent product development",
+    "visual": "nfc",
+    "featured": false,
+    "summary": "Combining a fabricated enclosure with an NFC tag and a useful digital destination.",
+    "tags": [
+      "NFC",
+      "CAD",
+      "Digital fabrication"
+    ],
+    "challenge": "A physical business accessory needs to open a useful destination while remaining easy to carry and recognize.",
+    "constraints": [
+      "Tag placement and reading orientation",
+      "Enclosure thickness",
+      "Clear digital destination",
+      "Repeatable fabrication and finish"
+    ],
+    "approach": "Treat the enclosure, tag and linked page as one interaction. Test reading behavior before standardizing a production design.",
+    "development": "Early keychain design and NFC experiments inform the current made-to-order catalog. Catalog visuals illustrate the offering and are not test evidence.",
+    "validation": "No universal reading range or cross-device success rate is claimed. A phone-by-phone reading test and a durability review are still needed.",
+    "outcome": "A prototype direction connected to an existing made-to-order product offering.",
+    "next": [
+      "Record tag position and wall thickness",
+      "Test multiple phones and orientations",
+      "Check finish and mechanical durability",
+      "Document a repeatable build configuration"
+    ],
+    "linkedin": "An NFC keychain is a hardware-and-interface problem: enclosure thickness, tag placement and the linked page all affect the experience. My next step is documenting repeatable reading tests across devices.",
+    "cover": {
+      "src": "./v2/assets/portfolio/nfc-concept-v1.png",
+      "alt": "AI-generated concept illustration: Premium printed key-fob concept with an exposed NFC coil tag.",
+      "kind": "AI-generated concept visual"
+    }
+  },
+  {
+    "slug": "connected-automation",
+    "title": "Smart Home Retrofit Automation",
+    "category": "Automation",
+    "status": "Documentation in Progress",
+    "origin": "Independent home automation",
+    "visual": "control",
+    "featured": true,
+    "summary": "Giving existing equipment automatic operation and device-based control, instead of replacing the entire product.",
+    "tags": [
+      "Retrofit",
+      "Home automation",
+      "Device control"
+    ],
+    "challenge": "Existing household equipment has useful hardware but lacks the automatic operation or connected control needed by its user.",
+    "constraints": [
+      "Clear input and output behavior",
+      "Defined operating conditions",
+      "Documented manual control and failure behavior"
+    ],
+    "approach": "Reuse the existing product and add a suitable sensing, control and device-interface layer. Document the original behavior, the retrofit and the resulting automatic sequence.",
+    "development": "Jonathan has developed home automation by reusing products without their own automatic control and making them operate automatically from a device. His independent experience also includes ESP32, Raspberry Pi and Home Assistant.",
+    "validation": "Individual retrofit examples, wiring documentation, operating conditions and test observations will be added to this record. No universal compatibility or certified product status is implied.",
+    "outcome": "Hands-on retrofit experience connecting existing equipment with automatic operation and a device interface.",
+    "next": [
+      "Choose one completed retrofit to document",
+      "Show original and modified behavior",
+      "Record the controller, interface and automatic sequence",
+      "Add photos and functional test observations"
+    ],
+    "linkedin": "My home automation work includes reusing existing products and adding automatic operation and device-based control. I am documenting the before-and-after behavior, control choices and functional tests in my portfolio.",
+    "cover": {
+      "src": "./v2/assets/portfolio/home-dashboard-concept-v2.png",
+      "alt": "AI-generated concept of a smart home dashboard controlling lighting, climate, security, blinds and energy.",
+      "kind": "AI-generated concept visual"
+    }
+  },
+  {
+    "slug": "sensor-signal-development",
+    "title": "Sensor & Signal Development",
+    "category": "Electronics",
+    "status": "Research",
+    "origin": "Independent research",
+    "visual": "signal",
+    "featured": false,
+    "summary": "Exploring component selection and signal conditioning before a sensing prototype is built.",
+    "tags": [
+      "Sensors",
+      "Signal conditioning",
+      "Component selection"
+    ],
+    "challenge": "A sensor output needs a suitable interface before it can be interpreted by a controller or acquisition system.",
+    "constraints": [
+      "Signal range and supply requirements",
+      "Component availability",
+      "A testable circuit and clear measurements"
+    ],
+    "approach": "Define the signal requirements, compare suitable components and plan bench measurements before concluding that a circuit works.",
+    "development": "The work currently focuses on component research, interfaces and a practical test plan. No completed or calibrated instrument is claimed.",
+    "validation": "Measured performance is pending. Datasheet expectations are not presented as measurements of an assembled device.",
+    "outcome": "A research entry documenting the engineering approach to a sensing problem.",
+    "next": [
+      "Define input and output requirements",
+      "Review component specifications",
+      "Assemble a bench prototype",
+      "Record measured behavior"
+    ],
+    "linkedin": "In sensor development, selecting a component is only the start. This research entry focuses on defining signal requirements and a bench test plan before making performance claims.",
+    "cover": {
+      "src": "./v2/assets/portfolio/signal-concept-v1.png",
+      "alt": "AI-generated concept illustration: Sensor and signal-conditioning bench concept with a development board.",
+      "kind": "AI-generated concept visual"
+    }
+  },
+  {
+    "slug": "auto-buddy",
+    "title": "JAKS Auto-Buddy",
+    "category": "Research",
+    "status": "Concept",
+    "origin": "Independent concept",
+    "visual": "auto",
+    "featured": false,
+    "summary": "A research concept for keeping vehicle events and maintenance reminders in one place.",
+    "tags": [
+      "Automotive",
+      "Device concept",
+      "Maintenance history"
+    ],
+    "challenge": "Explore whether a focused physical companion could make vehicle maintenance information easier to capture and revisit.",
+    "constraints": [
+      "A useful first use case",
+      "Driver distraction and placement",
+      "Privacy of recorded information",
+      "Hardware cost and ongoing support"
+    ],
+    "approach": "Validate the information workflow before committing to cameras, a dedicated device or a possible vehicle-data connection.",
+    "development": "Concept and research only. A camera, AI assistant and possible OBD-II connection are options to evaluate, not implemented features.",
+    "validation": "No working device, vehicle compatibility, diagnostic capability or commercial availability is claimed.",
+    "outcome": "A concept in the research backlog.",
+    "next": [
+      "Interview potential users",
+      "Choose one problem to test",
+      "Try a simple software-first workflow",
+      "Review whether hardware is justified"
+    ],
+    "linkedin": "JAKS Auto-Buddy is an early concept for organizing vehicle events and maintenance reminders. Before adding hardware, the goal is to validate whether one focused information workflow is useful.",
+    "cover": {
+      "src": "./v2/assets/portfolio/auto-concept-v1.png",
+      "alt": "AI-generated concept illustration: Early automotive companion-device concept with a phone maintenance interface.",
+      "kind": "AI-generated concept visual"
+    }
+  }
+]

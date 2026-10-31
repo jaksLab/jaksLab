@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jakslab.github.io/jaksLab/sitemap.xml
