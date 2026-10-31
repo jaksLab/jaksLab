@@ -32,8 +32,8 @@
     "linkedin": "My automation experience includes splice detection: connecting a physical event to useful machine behavior. I am documenting the problem, sensing approach, control integration and test observations in my engineering portfolio.",
     "cover": {
       "src": "./v2/assets/portfolio/splice-concept-v1.png",
-      "alt": "AI-generated concept illustration: Material-handling assembly with a sensing bracket and a subtle joined seam.",
-      "kind": "AI-generated concept visual"
+      "alt": "concept illustration: Material-handling assembly with a sensing bracket and a subtle joined seam.",
+      "kind": "Project visual"
     }
   },
   {
@@ -68,8 +68,8 @@
     "linkedin": "My professional experience at Continental Tire includes a metal-detection automation project. This portfolio record will focus on the engineering problem, my contribution and the control approach, while keeping internal company information confidential.",
     "cover": {
       "src": "./v2/assets/portfolio/metal-concept-v1.png",
-      "alt": "AI-generated concept illustration: Generic metal-detection tunnel integrated into a short industrial conveyor.",
-      "kind": "AI-generated concept visual"
+      "alt": "concept illustration: Generic metal-detection tunnel integrated into a short industrial conveyor.",
+      "kind": "Project visual"
     }
   },
   {
@@ -105,8 +105,8 @@
     "linkedin": "For my mechatronics engineering thesis, I developed an automated industrial mill. I am preparing a case study connecting the mechanical process, automatic sequence, control architecture and recorded tests.",
     "cover": {
       "src": "./v2/assets/portfolio/mill-concept-v1.png",
-      "alt": "AI-generated concept illustration: Conceptual automated industrial mill, hopper, motor and control enclosure.",
-      "kind": "AI-generated concept visual"
+      "alt": "concept illustration: Conceptual automated industrial mill, hopper, motor and control enclosure.",
+      "kind": "Project visual"
     }
   },
   {
@@ -143,8 +143,8 @@
     "linkedin": "I'm exploring a maintenance documentation assistant that turns observations into structured, reviewable records. The project is in research: the next step is to test the capture-and-review workflow before building dedicated hardware.",
     "cover": {
       "src": "./v2/assets/portfolio/copilot-concept-v1.png",
-      "alt": "AI-generated concept illustration: Rugged maintenance capture-device concept beside a motor and report tablet.",
-      "kind": "AI-generated concept visual"
+      "alt": "concept illustration: Rugged maintenance capture-device concept beside a motor and report tablet.",
+      "kind": "Project visual"
     }
   },
   {
@@ -181,8 +181,8 @@
     "linkedin": "JAKS ServiceLoop explores how an NFC or QR touchpoint could keep workshop service information accessible. It is in development; the next milestone is a small workshop workflow test, not a revenue claim.",
     "cover": {
       "src": "./v2/assets/portfolio/loop-concept-v1.png",
-      "alt": "AI-generated concept illustration: NFC touchpoint and phone service-interface concept in an automotive workshop.",
-      "kind": "AI-generated concept visual"
+      "alt": "concept illustration: NFC touchpoint and phone service-interface concept in an automotive workshop.",
+      "kind": "Project visual"
     }
   },
   {
@@ -218,8 +218,8 @@
     "linkedin": "I developed a maintenance inventory workbook prototype focused on practical part lookup: broad manufacturer searches, exact codes, quantities and locations. The next step is a repeatable usability test with synthetic data.",
     "cover": {
       "src": "./v2/assets/portfolio/inventory-concept-v1.png",
-      "alt": "AI-generated concept illustration: Organized industrial spare parts and an abstract inventory interface.",
-      "kind": "AI-generated concept visual"
+      "alt": "concept illustration: Organized industrial spare parts and an abstract inventory interface.",
+      "kind": "Project visual"
     }
   },
   {
@@ -256,8 +256,8 @@
     "linkedin": "An NFC keychain is a hardware-and-interface problem: enclosure thickness, tag placement and the linked page all affect the experience. My next step is documenting repeatable reading tests across devices.",
     "cover": {
       "src": "./v2/assets/portfolio/nfc-concept-v1.png",
-      "alt": "AI-generated concept illustration: Premium printed key-fob concept with an exposed NFC coil tag.",
-      "kind": "AI-generated concept visual"
+      "alt": "concept illustration: Premium printed key-fob concept with an exposed NFC coil tag.",
+      "kind": "Project visual"
     }
   },
   {
@@ -293,8 +293,8 @@
     "linkedin": "My home automation work includes reusing existing products and adding automatic operation and device-based control. I am documenting the before-and-after behavior, control choices and functional tests in my portfolio.",
     "cover": {
       "src": "./v2/assets/portfolio/home-dashboard-concept-v2.png",
-      "alt": "AI-generated concept of a smart home dashboard controlling lighting, climate, security, blinds and energy.",
-      "kind": "AI-generated concept visual"
+      "alt": "a smart home dashboard controlling lighting, climate, security, blinds and energy.",
+      "kind": "Project visual"
     }
   },
   {
@@ -330,8 +330,8 @@
     "linkedin": "In sensor development, selecting a component is only the start. This research entry focuses on defining signal requirements and a bench test plan before making performance claims.",
     "cover": {
       "src": "./v2/assets/portfolio/signal-concept-v1.png",
-      "alt": "AI-generated concept illustration: Sensor and signal-conditioning bench concept with a development board.",
-      "kind": "AI-generated concept visual"
+      "alt": "concept illustration: Sensor and signal-conditioning bench concept with a development board.",
+      "kind": "Project visual"
     }
   },
   {
@@ -368,8 +368,8 @@
     "linkedin": "JAKS Auto-Buddy is an early concept for organizing vehicle events and maintenance reminders. Before adding hardware, the goal is to validate whether one focused information workflow is useful.",
     "cover": {
       "src": "./v2/assets/portfolio/auto-concept-v1.png",
-      "alt": "AI-generated concept illustration: Early automotive companion-device concept with a phone maintenance interface.",
-      "kind": "AI-generated concept visual"
+      "alt": "concept illustration: Early automotive companion-device concept with a phone maintenance interface.",
+      "kind": "Project visual"
     }
   }
 ]
