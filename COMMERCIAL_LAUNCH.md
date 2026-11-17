@@ -58,3 +58,8 @@ This is a **static website**, not yet a CRM, payment platform, or email automati
 - [ ] Connect official @jaks_lab Instagram account to Metricool; current integration reports no social network connected.
 - [ ] Set highlights: Start Here, Products, Builds, R&D, Services.
 - [ ] Post the introductory Reel and pin three informative posts after filming.
+
+## Instagram branded assets / profile setup (added 2026-11-17)
+The site hosts an unindexed brand-kit page at `/brand-kit/`. It renders **the original JAKS logo from /media/logo.webp** into a square 1080 × 1080 PNG avatar and supplies downloadable introductory post graphics (1080 × 1350) and a highlight cover (1080 × 1920). The copy is based on public website positioning; the graphics intentionally show no unverified customer results or product photos.
+
+Instagram profile fields still require owner editing inside Instagram: (1) profile photo, (2) name 'JAKS Engineering Lab | Product Design', (3) business bio, (4) link with UTM tags, (5) public Business category, (6) optional contact email and (7) account 2FA. Metricool is connected but does not expose Instagram profile editing in the current integration. Do not confuse linked analytics with full profile access.
