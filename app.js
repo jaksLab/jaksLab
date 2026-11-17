@@ -1,3 +1,4 @@
+import { trackEvent } from './analytics.js';
 const root=document.body.dataset.root || './';
 
 const menu=document.querySelector('#menu-toggle');
@@ -61,6 +62,7 @@ if(form){
     document.querySelector('#draft-whatsapp').href=`https://wa.me/18452704608?text=${encodeURIComponent(text)}`;
     document.querySelector('#draft-status').textContent='No message has been sent. Choose email or WhatsApp to review and send your message.';
     const button=document.querySelector('#copy-draft');button.textContent='Copy message';button.onclick=()=>copy(text,button,document.querySelector('#draft-status'));
+    trackEvent('inquiry_draft_prepared', {intent:String(data.get('intent')||'general')});
     draft.hidden=false;
     draft.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'nearest'});
   });
@@ -85,4 +87,26 @@ if(zoomable.length){
     source.parentNode.insertBefore(button,source);button.append(source);
     button.addEventListener('click',()=>{image.src=source.currentSrc||source.src;image.alt=source.alt;dialog.showModal();});
   });
+}
+
+// Funnel events count interactions, not confirmed orders or submitted inquiries.
+document.addEventListener('click', event => {
+  const link=event.target.closest('a[href]');
+  if(!link)return;
+  const href=link.getAttribute('href')||'';
+  let channel=null;
+  if(href.startsWith('mailto:')) channel='email';
+  else if(href.startsWith('tel:')) channel='phone';
+  else if(href.includes('wa.me/')) channel='whatsapp';
+  else if(href.includes('etsy.com')) channel='etsy';
+  else if(link.closest('.concept-card')) channel='pilot_interest';
+  else if(link.closest('.product-card, .product-detail-copy')) channel='product_view';
+  if(channel)trackEvent('jaks_link_click',{channel});
+});
+// Hide the founder's personal Instagram link until a verified JAKS business profile exists.
+document.querySelectorAll('a[href*="instagram.com/jaks9_3"]').forEach(a=>a.remove());
+// The footer's privacy link is shared across existing static pages.
+if(!document.querySelector('.site-footer a[href*="/privacy/"]')){
+ const group=[...document.querySelectorAll('.site-footer .footer-links')].find(el=>el.textContent.includes('Get in touch'));
+ if(group){const link=document.createElement('a');link.href=root+'privacy/';link.textContent='Privacy & analytics';group.append(link);}
 }
