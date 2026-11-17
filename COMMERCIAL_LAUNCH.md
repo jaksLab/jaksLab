@@ -12,11 +12,11 @@ JAKS is an engineering-led development studio offering product design, mechanica
 - Contact product selector allows non-binding product research interest.
 - Analytics framework is installed in code, **disabled pending GA4 registration and consent**.
 - Privacy page at `/privacy/` and a footer link to it.
-- Founder personal Instagram link is hidden until the brand account can be verified.
+- The founder's gym Instagram remains independent; JAKS' user-reported new business account is @jaks_lab and is linked in the site footer.
 
 ## Account setup (owner action required)
 1. **Email:** The existing Gmail account `jaks2520@gmail.com` is verified and should remain operational. Gmail labels created: `JAKS | Leads`, `JAKS | Orders`, `JAKS | Partners`. A new business mailbox needs separate account/domain verification; do not publish an unverified mailbox. A prospective domain-based email could be `hello@jaksengineeringlab.com` if the domain is purchased and configured.
-2. **Instagram:** Candidate handle `@jaksengineeringlab` (availability **not checked/confirmed**). Register in the Instagram app, verify ownership by email/phone, enable two-factor authentication, switch to a professional Business account, and use brand image and link to the site. Do not insert the social link before the profile is live.
+2. **Instagram:** User reports creating `@jaks_lab` using `jaks2520@gmail.com`. Ownership and public profile could not be independently verified by tool. Set display name `JAKS Engineering Lab | Product Design`, category Engineering Service (or closest available), professional account **Business**, public visibility, contact email `jaks2520@gmail.com`, and website `https://jakslab.github.io/jaksLab/?utm_source=instagram&utm_medium=organic_social&utm_campaign=profile`. Use existing business logo, enable app-based 2FA and keep `@jaks.shred` gym account separate. Suggested bio: `We design & build functional products ⚙️\nAutomation • Robotics • Prototyping\nNY / NJ | Explore our work ↓`. Do not claim payment links before Etsy is live.
 3. **Metricool:** Connected to ChatGPT, but no social network has been linked. Connect a verified Instagram Business account at https://app.metricool.com/brands/connections?blogId=8179317 before scheduling.
 4. **Etsy:** Open and verify seller account at https://www.etsy.com/sell. Do not add checkout links until a tested eligible original product has been listed. Keep engineering consulting quoted on our site.
 
@@ -48,3 +48,13 @@ NY / NJ • Custom projects
 
 ## Limitations
 This is a **static website**, not yet a CRM, payment platform, or email automation system. The quote form opens a draft that visitors must send themselves. Do not claim metrics, accounts, customer numbers, or revenue that do not exist.
+
+## Instagram account checklist (2026-11-17)
+- [x] User reports creating @jaks_lab; original gym account untouched.
+- [x] Business site links prepared for @jaks_lab.
+- [ ] In Instagram, switch to Business, confirm category and email.
+- [ ] Add site link with UTM tags and suggested bio.
+- [ ] Enable authenticator-based two-factor authentication and retain recovery codes.
+- [ ] Connect official @jaks_lab Instagram account to Metricool; current integration reports no social network connected.
+- [ ] Set highlights: Start Here, Products, Builds, R&D, Services.
+- [ ] Post the introductory Reel and pin three informative posts after filming.

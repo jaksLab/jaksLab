@@ -99,12 +99,18 @@ document.addEventListener('click', event => {
   else if(href.startsWith('tel:')) channel='phone';
   else if(href.includes('wa.me/')) channel='whatsapp';
   else if(href.includes('etsy.com')) channel='etsy';
+  else if(href.includes('instagram.com/jaks_lab')) channel='instagram';
   else if(link.closest('.concept-card')) channel='pilot_interest';
   else if(link.closest('.product-card, .product-detail-copy')) channel='product_view';
   if(channel)trackEvent('jaks_link_click',{channel});
 });
-// Hide the founder's personal Instagram link until a verified JAKS business profile exists.
-document.querySelectorAll('a[href*="instagram.com/jaks9_3"]').forEach(a=>a.remove());
+// The brand account is separate from the founder's fitness Instagram.
+// Replace any legacy footer references across old static pages.
+document.querySelectorAll('a[href*="instagram.com/jaks9_3"]').forEach(link=>{
+ link.href='https://www.instagram.com/jaks_lab/';
+ link.textContent='JAKS on Instagram ↗';
+ link.setAttribute('aria-label','JAKS Engineering Lab Instagram profile');
+});
 // The footer's privacy link is shared across existing static pages.
 if(!document.querySelector('.site-footer a[href*="/privacy/"]')){
  const group=[...document.querySelectorAll('.site-footer .footer-links')].find(el=>el.textContent.includes('Get in touch'));
