@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#090d12">
+<title>Instagram Brand Kit | JAKS Engineering Lab</title>
+<link rel="icon" href="../media/logo.webp">
+<style>
+:root{--bg:#090d12;--panel:#111a23;--border:#2d3e4b;--cyan:#66e1eb;--white:#eaf3f6;--muted:#9daebb}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--white);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+a{color:var(--cyan)}
+header,main,footer{width:min(1160px,calc(100% - 40px));margin:auto}
+header{display:flex;align-items:center;gap:16px;padding:30px 0;border-bottom:1px solid var(--border)}
+header img{width:54px;height:54px;border-radius:50%}header strong{font-size:20px;letter-spacing:.09em}header small{display:block;color:var(--muted);letter-spacing:.14em;font-size:10px}
+header a{margin-left:auto;font-size:13px}
+h1{font-size:clamp(32px,5.5vw,60px);letter-spacing:-.06em;line-height:1.1;margin:0 0 15px}
+h2{font-size:26px;letter-spacing:-.04em;margin:0 0 14px}
+p{color:var(--muted)}
+.hero{padding:60px 0 25px}.eyebrow{font:12px/1.3 Consolas,monospace;letter-spacing:.12em;color:var(--cyan);margin-bottom:14px}
+.hero p{max-width:700px;font-size:17px}
+.intro{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+button,.btn{font:600 13px/1.4 inherit;cursor:pointer;padding:11px 15px;border-radius:5px;background:var(--cyan);color:#0a1720;border:1px solid var(--cyan)}
+button:hover{filter:brightness(1.1)}button:focus-visible,a:focus-visible{outline:2px solid white;outline-offset:3px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:19px;margin:25px 0 55px}
+.card{border:1px solid var(--border);background:var(--panel);border-radius:10px;overflow:hidden}
+.card canvas{width:100%;display:block;background:#000;aspect-ratio:4/5;object-fit:contain}
+.card.avatar canvas{aspect-ratio:1/1}
+.card .body{padding:16px 17px 18px}.card h3{font-size:17px;margin:0 0 5px}.card .body p{font-size:12px;margin:0 0 14px;line-height:1.5}.card button{width:100%}
+.copy-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:25px 0}
+.copy{padding:24px;background:var(--panel);border:1px solid var(--border);border-radius:8px}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.65 Consolas,monospace;color:#e8f4f7;background:#0a1118;padding:17px;border-radius:6px}
+.copy button{margin-top:12px}
+.small{font-size:13px}
+.note{border-left:2px solid var(--cyan);padding:10px 0 10px 17px;margin-bottom:45px}
+footer{border-top:1px solid var(--border);padding:25px 0 60px;color:var(--muted);font-size:12px}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.grid,.copy-grid{grid-template-columns:1fr}.hero{padding:37px 0 10px}.card{max-width:460px}header a{font-size:11px}}
+</style>
+</head>
+<body>
+<header><img src="../media/logo.webp" alt="JAKS original logo"><div><strong>JAKS</strong><small>ENGINEERING LAB / BRAND KIT</small></div><a href="../">Volver a la web</a></header>
+<main>
+<section class="hero">
+<div class="eyebrow">INSTAGRAM BUSINESS · @jaks_lab</div>
+<h1>Tu identidad de marca.<br>Lista para publicar.</h1>
+<p>Kit de lanzamiento basado en el logotipo original y la identidad visual de JAKS Engineering Lab. Descarga el avatar y las imágenes en PNG. Son gráficos editoriales; no representan productos terminados ni ventas verificadas.</p>
+</section>
+<section>
+<h2>01 · Recursos visuales</h2>
+<div id="assets" class="grid"></div>
+<p id="render-status" class="small" role="status">Preparando archivos PNG...</p>
+</section>
+<section>
+<h2>02 · Datos exactos para el perfil</h2>
+<div class="copy-grid">
+<div class="copy"><div class="eyebrow">NOMBRE Y BIOGRAFÍA</div><pre id="bio-content">JAKS Engineering Lab | Product Design
+
+We design & build functional products ⚙️
+Automation • Robotics • Prototyping
+NY / NJ | Explore our work ↓</pre><button data-copy="bio-content">Copiar nombre y bio</button><p class="small">En Instagram, el nombre visible y la biografía van en campos separados.</p></div>
+<div class="copy"><div class="eyebrow">LINK CON MEDICIÓN DE ORIGEN</div><pre id="url-content">https://jakslab.github.io/jaksLab/?utm_source=instagram&amp;utm_medium=organic_social&amp;utm_campaign=profile</pre><button data-copy="url-content">Copiar enlace web</button><p class="small">Las etiquetas UTM permitirán identificar el tráfico de Instagram cuando actives Google Analytics.</p></div>
+<div class="copy"><div class="eyebrow">POST 01 / PRESENTACIÓN</div><pre id="caption-content">Welcome to JAKS Engineering Lab ⚙️
+
+We develop functional products, mechanisms and automation solutions.
+
+Here we'll share the engineering behind each build — from the first problem to the working prototype.
+
+Design. Build. Validate.
+
+#JAKSEngineeringLab #ProductDesign #Automation #Engineering</pre><button data-copy="caption-content">Copiar descripción del primer post</button></div>
+<div class="copy"><div class="eyebrow">PERFIL COMERCIAL</div><p style="color:#eaf3f6">Usuario: <strong>@jaks_lab</strong><br>Nombre: <strong>JAKS Engineering Lab | Product Design</strong><br>Tipo: <strong>Business</strong><br>Categoría sugerida: <strong>Engineering Service</strong> (si está disponible)<br>Contacto: <strong>jaks2520@gmail.com</strong><br>Zona: <strong>New York / New Jersey</strong></p><p class="small">Configura la cuenta pública, autenticación de dos factores y evita compartir publicaciones automáticamente con tu Instagram fitness.</p></div>
+</div>
+</section>
+<section class="note"><strong>Publicaciones sugeridas:</strong><p>Sube primero la presentación de marca y después las piezas “What we do” y “Our process”. Cuando tengas fotografías reales de tus prototipos, alterna estas publicaciones gráficas con demostraciones del producto funcionando. No promociones como disponibles conceptos que aún están en pruebas.</p></section>
+</main>
+<footer>JAKS Engineering Lab · Kit de marketing generado para la cuenta @jaks_lab · Identidad basada en el repositorio oficial. Este sitio no cambia por sí solo tu configuración de Meta.</footer>
+<script>
+"use strict";
+const cyan="#66e1eb",dark="#090d12",white="#edf3f5",gray="#9daebb";
+const avatar=new Image();avatar.src="../media/logo.webp";
+const assets=[
+{id:"avatar",title:"Foto de perfil",detail:"1080 × 1080 · Logo original sobre fondo negro · Perfil circular",file:"JAKS-instagram-avatar.png",w:1080,h:1080},
+{id:"intro",title:"Post 01 · Presentación",detail:"1080 × 1350 · Marca y propuesta de valor",file:"JAKS-post-01-introduction.png",w:1080,h:1350},
+{id:"services",title:"Post 02 · Servicios",detail:"1080 × 1350 · Ingeniería y diseño funcional",file:"JAKS-post-02-services.png",w:1080,h:1350},
+{id:"process",title:"Post 03 · Proceso",detail:"1080 × 1350 · De problema a prototipo",file:"JAKS-post-03-process.png",w:1080,h:1350},
+{id:"highlights",title:"Portada · Builds",detail:"1080 × 1920 · Portada de historias destacadas",file:"JAKS-highlight-builds.png",w:1080,h:1920}
+];
+const canvases={};
+const container=document.querySelector("#assets");
+assets.forEach(a=>{
+ const card=document.createElement("article");card.className="card "+(a.id==="avatar"?"avatar":"");
+ const canvas=document.createElement("canvas");canvas.width=a.w;canvas.height=a.h;
+ const body=document.createElement("div");body.className="body";
+ const h3=document.createElement("h3");h3.textContent=a.title;
+ const p=document.createElement("p");p.textContent=a.detail;
+ const button=document.createElement("button");button.type="button";button.textContent="Descargar PNG";
+ button.onclick=()=>download(canvas,a.file);body.append(h3,p,button);card.append(canvas,body);container.append(card);canvases[a.id]=canvas;
+});
+function rect(ctx,x,y,w,h,color){ctx.fillStyle=color;ctx.fillRect(x,y,w,h)}
+function text(ctx,str,x,y,size=40,color=white,weight=600){ctx.fillStyle=color;ctx.font=weight+" "+size+"px Arial, sans-serif";ctx.fillText(str,x,y)}
+function line(ctx,x,y,x2,y2,color=cyan,width=3){ctx.strokeStyle=color;ctx.lineWidth=width;ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x2,y2);ctx.stroke()}
+function grid(ctx,w,h){
+ rect(ctx,0,0,w,h,dark);
+ ctx.strokeStyle="rgba(102,225,235,.07)";ctx.lineWidth=1;
+ for(let x=0;x<w;x+=56){line(ctx,x,0,x,h,"rgba(102,225,235,.07)",1)}
+ for(let y=0;y<h;y+=56){line(ctx,0,y,w,y,"rgba(102,225,235,.07)",1)}
+ let g=ctx.createRadialGradient(w*.79,h*.38,20,w*.79,h*.38,w*.75);
+ g.addColorStop(0,"rgba(40,125,153,.23)");g.addColorStop(1,"rgba(10,16,25,0)");
+ rect(ctx,0,0,w,h,g);
+}
+function brand(ctx,w){
+ ctx.drawImage(avatar,76,75,144,144);
+ text(ctx,"JAKS",237,139,58,white,700);text(ctx,"ENGINEERING LAB",240,181,20,gray,700);
+ line(ctx,78,255,w-78,255,"#395363",2);
+}
+function footer(ctx,w,h,label){
+ line(ctx,78,h-160,w-78,h-160,"#385261",2);
+ text(ctx,"JAKS / ENGINEERING LAB",79,h-107,24,cyan,700);
+ text(ctx,label,w-79,h-107,20,gray,400);
+}
+function render(a){
+ const cv=canvases[a.id],ctx=cv.getContext("2d"),w=a.w,h=a.h;
+ ctx.clearRect(0,0,w,h);
+ if(a.id==="avatar"){
+  rect(ctx,0,0,w,h,"#000000");
+  ctx.drawImage(avatar,60,60,960,960);
+  return;
+ }
+ grid(ctx,w,h);
+ if(a.id==="highlights"){
+  ctx.strokeStyle=cyan;ctx.lineWidth=10;ctx.beginPath();ctx.arc(540,940,370,0,Math.PI*2);ctx.stroke();
+  ctx.drawImage(avatar,365,625,350,350);
+  text(ctx,"BUILDS",540-168,1140,64,white,700);
+  text(ctx,"DESIGN · MAKE · TEST",540-182,1199,25,cyan,700);
+  return;
+ }
+ brand(ctx,w);
+ if(a.id==="intro"){
+  text(ctx,"WELCOME TO THE LAB",82,354,28,cyan,700);
+  text(ctx,"DESIGN.",74,560,128,white,700);
+  text(ctx,"BUILD.",74,718,128,white,700);
+  text(ctx,"VALIDATE.",74,875,115,cyan,700);
+  text(ctx,"Functional products. Practical automation.",80,1001,34,white,500);
+  text(ctx,"Engineering-led ideas built for the real world.",80,1060,27,gray,400);
+  footer(ctx,w,h,"NY / NJ");
+ }
+ if(a.id==="services"){
+  text(ctx,"WHAT WE DO",80,369,34,cyan,700);
+  text(ctx,"FROM IDEAS TO",77,499,91,white,700);
+  text(ctx,"FUNCTIONAL",77,613,91,white,700);
+  text(ctx,"SYSTEMS.",77,727,96,cyan,700);
+  const ys=[837,935,1033];const l=[["PRODUCT DESIGN","CAD · PROTOTYPING"],["AUTOMATION","SENSORS · CONTROL"],["ELECTRONICS","EMBEDDED SYSTEMS"]];
+  l.forEach((v,i)=>{line(ctx,80,ys[i]-31,1000,ys[i]-31,"#3c5261",2);text(ctx,v[0],81,ys[i]+9,32,white,700);text(ctx,v[1],980-ctx.measureText(v[1]).width,ys[i]+8,24,cyan,400)});
+  footer(ctx,w,h,"DESIGN / BUILD / TEST");
+ }
+ if(a.id==="process"){
+  text(ctx,"OUR PROCESS",80,375,34,cyan,700);
+  text(ctx,"ENGINEERING",77,498,97,white,700);
+  text(ctx,"STARTS WITH",77,616,97,white,700);
+  text(ctx,"A PROBLEM.",77,734,103,cyan,700);
+  const labels=[["01","UNDERSTAND"],["02","DESIGN"],["03","BUILD & TEST"]];
+  labels.forEach((v,i)=>{const y=852+i*100;rect(ctx,80,y-44,86,70,"#173441");text(ctx,v[0],94,y+2,38,cyan,700);text(ctx,v[1],190,y+1,39,white,700)});
+  footer(ctx,w,h,"BUILDING WHAT MATTERS");
+ }
+}
+function drawAll(){
+ if(!avatar.complete||!avatar.naturalWidth){document.querySelector("#render-status").textContent="No se pudo cargar el logo original. Comprueba la conexión e inténtalo de nuevo.";return}
+ assets.forEach(render);document.querySelector("#render-status").textContent="Archivos listos. En iPhone, si se abre una imagen nueva, mantén pulsado y selecciona Guardar en Fotos.";
+}
+avatar.onload=drawAll;avatar.onerror=drawAll;
+if(avatar.complete&&avatar.naturalWidth)drawAll();
+function download(canvas,name){
+ canvas.toBlob(blob=>{
+  if(!blob){window.open(canvas.toDataURL("image/png"),"_blank");return}
+  const url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download=name;
+  document.body.append(a);a.click();a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),15000);
+ },"image/png");
+}
+document.querySelectorAll("[data-copy]").forEach(b=>b.onclick=async()=>{
+ const v=document.getElementById(b.dataset.copy).innerText;
+ try{await navigator.clipboard.writeText(v);b.textContent="Copiado";}catch{b.textContent="Selecciona el texto para copiar";}
+});
+</script>
+</body>
+</html>
